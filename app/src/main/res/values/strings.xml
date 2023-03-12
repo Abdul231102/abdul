@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Multi Versus</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="loginbtn">Login</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create New Account ?</string>
+
+
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choco_blast">choco blast</string>
+    <string name="bullet_shooter">Bullet Shooter</string>
+    <string name="dice_roller">Dice Roller</string>
+    <string name="bottle_spinner">Bottle Spinner</string>
+
+
+</resources>

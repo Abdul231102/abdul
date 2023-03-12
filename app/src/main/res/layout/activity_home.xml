@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context="cam.apple.firebase.HomeActivity"
+    android:background="@drawable/game_cube_dark_blue"
+    android:id="@+id/homeAct">
+
+    <TextView
+        android:id="@+id/home1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/input_bgwhite"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+    android:id="@+id/tictactoebtn"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="50dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginEnd="50dp"
+    android:background="@drawable/input_btnwhite"
+    android:paddingStart="20dp"
+    android:text="Tic Tac Toe"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/candy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_btnwhite"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/choco_blast"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tictactoebtn"
+        app:layout_constraintStart_toStartOf="@+id/tictactoebtn"
+        app:layout_constraintTop_toBottomOf="@+id/tictactoebtn" />
+
+    <Button
+                android:id="@+id/snakebtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_btnwhite"
+                android:text="@string/bullet_shooter"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/candy"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/candy"
+                app:layout_constraintTop_toBottomOf="@+id/candy" />
+
+            <Button
+                android:id="@+id/Dice_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_btnwhite"
+                android:text="@string/dice_roller"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/snakebtn"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/snakebtn"
+                app:layout_constraintTop_toBottomOf="@+id/snakebtn" />
+
+            <Button
+                android:id="@+id/Bottlebtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_btnwhite"
+                android:text="@string/bottle_spinner"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/Dice_btn"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Dice_btn"
+                app:layout_constraintTop_toBottomOf="@+id/Dice_btn" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-1dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/menu_main" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>

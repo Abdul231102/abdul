@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190670786761",
+    "firebase_url": "https://fir-9b3bf-default-rtdb.firebaseio.com",
+    "project_id": "fir-9b3bf",
+    "storage_bucket": "fir-9b3bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190670786761:android:8d026a75075cbe4e69fd18",
+        "android_client_info": {
+          "package_name": "cam.apple.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190670786761-5g65l7mivhjm7frv0orq9ifb1sc72q2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzjHKCxJzoS0LBaIOAljMHZE9p_BL5Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190670786761-4kcn09j1ki81n4h8n5jcc9fs6dobdrrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
